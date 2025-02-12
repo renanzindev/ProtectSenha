@@ -35,10 +35,25 @@ body {
     width: 100px;
 }
 
+#header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  /* Ajuste o espaço entre o título e a imagem conforme necessário */
+}
+
+#logo_carsoul {
+     width: 40px;
+}
+
 #title {
     color: var(--color-neutral-1);
     font-weight: 500;
     margin-bottom: 10px;
+}
+#logo_carsoul{
+
+    
 }
 
 #password_container {
